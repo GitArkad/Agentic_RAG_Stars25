@@ -8,6 +8,37 @@ resolution-markers = [
 ]
 
 [[package]]
+name = "agentic-rag-stars25"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "langchain-groq" },
+    { name = "langchain-huggingface" },
+    { name = "langchain-qdrant" },
+    { name = "langgraph" },
+    { name = "langgraph-cli" },
+    { name = "python-dotenv" },
+    { name = "qdrant-client" },
+    { name = "sentence-transformers" },
+    { name = "streamlit" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "langchain-core", specifier = ">=1.2.17" },
+    { name = "langchain-groq", specifier = ">=1.1.2" },
+    { name = "langchain-huggingface", specifier = ">=1.2.1" },
+    { name = "langchain-qdrant", specifier = ">=1.1.0" },
+    { name = "langgraph", specifier = ">=1.0.10" },
+    { name = "langgraph-cli", specifier = ">=0.4.14" },
+    { name = "python-dotenv", specifier = ">=1.2.2" },
+    { name = "qdrant-client", specifier = ">=1.17.0" },
+    { name = "sentence-transformers", specifier = ">=5.2.3" },
+    { name = "streamlit", specifier = ">=1.55.0" },
+]
+
+[[package]]
 name = "altair"
 version = "6.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -604,37 +635,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/a3/6a/c9e73635933b722e4fca31fbf49dbe23eb06efde459b3aabf5a2a6d192e5/langgraph_cli-0.4.14.tar.gz", hash = "sha256:ba6bc715651d85ba94d14d6c53db87b4bf478cf45d61a28af9c8dee629f3cf1f", size = 857457, upload-time = "2026-03-02T21:27:19.189Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e1/29/25fb20e2f2f5733edd52a5c7735a397a71763bdda05a74d1398221a49a41/langgraph_cli-0.4.14-py3-none-any.whl", hash = "sha256:42ad7e56b512a3c260b205f7623d2e2cc0b245463961810fcc44482200374b4b", size = 42116, upload-time = "2026-03-02T21:27:18.042Z" },
-]
-
-[[package]]
-name = "langgraph-practice"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "langchain-core" },
-    { name = "langchain-groq" },
-    { name = "langchain-huggingface" },
-    { name = "langchain-qdrant" },
-    { name = "langgraph" },
-    { name = "langgraph-cli" },
-    { name = "python-dotenv" },
-    { name = "qdrant-client" },
-    { name = "sentence-transformers" },
-    { name = "streamlit" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "langchain-core", specifier = ">=1.2.17" },
-    { name = "langchain-groq", specifier = ">=1.1.2" },
-    { name = "langchain-huggingface", specifier = ">=1.2.1" },
-    { name = "langchain-qdrant", specifier = ">=1.1.0" },
-    { name = "langgraph", specifier = ">=1.0.10" },
-    { name = "langgraph-cli", specifier = ">=0.4.14" },
-    { name = "python-dotenv", specifier = ">=1.2.2" },
-    { name = "qdrant-client", specifier = ">=1.17.0" },
-    { name = "sentence-transformers", specifier = ">=5.2.3" },
-    { name = "streamlit", specifier = ">=1.55.0" },
 ]
 
 [[package]]
