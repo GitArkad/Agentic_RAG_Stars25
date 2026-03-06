@@ -1,7 +1,10 @@
 # src/agent/nodes/agent.py
 import logging
+import os
+from dotenv import load_dotenv
 from typing import Dict, Any, List
 from langchain_core.messages import AIMessage, ToolMessage
+load_dotenv()
 from langchain_groq import ChatGroq
 from src.agent.state import State
 from src.agent.tools import tools  # Импортируем список тулзов
